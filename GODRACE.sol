@@ -129,7 +129,7 @@ interface IRouter {
     ) external;
 }
 
-contract Energy8 is Context, Ownable, IERC20 {
+contract GodRace is Context, Ownable, IERC20 {
   using SafeMath for uint256;
   mapping (address => mapping (address => uint256)) private _allowances;
   mapping (address => uint256) private _balances;
